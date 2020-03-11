@@ -1,0 +1,19 @@
+﻿<Window x:Class="PracticeProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticeProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="300">
+    <Grid>
+        <local:Accordion>
+            <local:AccordionItem Header="Gas names" IsExpanded="True" ExpandDirection="Right">
+                This is container for gas names
+            </local:AccordionItem>
+            <local:AccordionItem Header="Chamber names" IsExpanded="True" ExpandDirection="Right">
+                This is container for chamber names
+            </local:AccordionItem>
+        </local:Accordion>
+    </Grid>
+</Window>

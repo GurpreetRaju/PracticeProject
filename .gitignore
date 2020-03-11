@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs/PracticeProject/v16
+/packages/Microsoft.Build.Tasks.Git.1.0.0
+/PracticeProject/bin/Debug
+/PracticeProject/obj/Debug
